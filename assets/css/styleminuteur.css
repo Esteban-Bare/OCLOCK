@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(../images/timer.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} 
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+}
+
+.submit{
+    margin : 10px 0 10px 0;
+    text-align: center;
+}
+
+.container{
+    background-color: hsla(0, 0%, 100%, 0.678) !important;
+    padding: 1%;
+    border-radius: 10px;
+}
+
+#increaseTime {
+    background-color: hsl(118, 100%, 50%);
+}
+
+#increaseTime:hover {
+    background-color: hsl(118, 100%, 40%);
+}
+
+#decreaseTime {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#decreaseTime:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+#controls button{
+    font-size: 125%;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px; 
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+}

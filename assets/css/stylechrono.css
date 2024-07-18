@@ -1,0 +1,91 @@
+body {
+    background-image: url(../images/clock.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-color: #000000;
+    padding: 0;
+    margin: 0;
+}
+
+#flex {
+    display: flex;
+    justify-content: center;
+    /* Horizontal center */
+    align-items: center;
+    /* Vertical center */
+    margin: 0;
+    /* Remove default body margin */
+    height: 88vh;
+    /* Make body full height */
+}
+
+#wrapper {
+    text-align: center;
+    /* Center the contents */
+}
+
+h1 {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#chronometre {
+    font-size: 350%;
+    font-weight: bold;
+    padding: 14%;
+    font-family: Arial, sans-serif;
+}
+
+.button button {
+    font-size: 125%;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+#start {
+    background-color: hsl(118, 100%, 50%);
+}
+
+#start:hover {
+    background-color: hsl(118, 100%, 40%);
+}
+
+#stop {
+    background-color: hsl(0, 100%, 50%);
+}
+
+#stop:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+#reset {
+    background-color: hsl(212, 92%, 33%);
+}
+
+#reset:hover {
+    background-color: hsl(212, 92%, 22%);
+}
+
+#console {
+    background-color: hsl(44, 100%, 50%);
+}
+
+#console:hover {
+    background-color: hsl(44, 100%, 40%);
+}
+
+#main {
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    border-radius: 10px;
+
+}

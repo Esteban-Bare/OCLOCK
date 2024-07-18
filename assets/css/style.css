@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+}
+
+#time {
+    font-size: 100px;
+    font-weight: bold;
+    text-align: center;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 0;
+    margin: 0;
+}
